@@ -1,6 +1,6 @@
 cask "onair-companion" do
-  version "1.0.0"
-  sha256 :no_check
+  version "1.1.2"
+  sha256 "6c71ba25f5c5ef27d55570589a5f9ea400a84eec77a31b51225b1cf40ef29ca2"
 
   url "https://github.com/alampros/onair-companion/releases/download/v#{version}/OnAirCompanion-v#{version}.zip"
   name "OnAir Companion"
