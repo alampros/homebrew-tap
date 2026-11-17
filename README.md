@@ -6,10 +6,12 @@ Personal Homebrew tap for distributing macOS apps.
 
 ```bash
 brew tap alampros/tap
-brew install --cask jargonary
+brew install --cask alampros/tap/jargonary
 ```
 
 ## Available Casks
+
+The fully qualified install command trusts only the Jargonary cask; no separate `brew trust` command is required. See [Homebrew tap trust](https://docs.brew.sh/Tap-Trust#installing-from-a-tap).
 
 | Cask | Description |
 |---|---|
